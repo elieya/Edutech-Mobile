@@ -1,0 +1,36 @@
+<meta charcet="UTF-8">
+
+<script>
+
+function pulaLinha() {
+
+	document.write("<br>");
+	document.write("<br>");
+
+}
+
+ function mostra(frase) {
+
+ 	document.write(frase);
+ 	pulaLinha();
+
+ }
+
+ function calculaImc(altura, peso) {
+
+    var imc = peso / (altura * altura);
+    return imc;
+
+}
+
+var imcEli = calculaImc(1.55, 40);
+var imcAmigo = calculaImc(1.72, 68);
+
+mostra(imcEli);
+mostra(imcAmigo);
+
+
+
+
+
+</script>
